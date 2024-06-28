@@ -5,7 +5,7 @@
 
 
 .container {
-  position: fixed;
+  position: relative;
   @include box(100%, 120px);
 
   .backgroundFon {

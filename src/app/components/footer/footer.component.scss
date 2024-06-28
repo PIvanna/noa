@@ -3,9 +3,9 @@
 @import "../../shared/styles/_variables.scss";
 
 .container {
-  position: fixed;
+  position: relative;
   @include box(100%, 170px);
-  bottom: 0;
+
 
   .backgroundFon {
     position: absolute;
