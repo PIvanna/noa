@@ -11,6 +11,7 @@ import { environment } from '../environments/environment';
 import {getStorage, provideStorage} from "@angular/fire/storage";
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { DeliveryPaymentComponent } from './delivery-payment/delivery-payment.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { AboutComponent } from './about/about.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    DeliveryPaymentComponent
   ],
   imports: [
     BrowserModule,
