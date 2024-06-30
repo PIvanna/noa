@@ -12,6 +12,7 @@ import {getStorage, provideStorage} from "@angular/fire/storage";
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { DeliveryPaymentComponent } from './delivery-payment/delivery-payment.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { DeliveryPaymentComponent } from './delivery-payment/delivery-payment.co
     FooterComponent,
     HomeComponent,
     AboutComponent,
-    DeliveryPaymentComponent
+    DeliveryPaymentComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
